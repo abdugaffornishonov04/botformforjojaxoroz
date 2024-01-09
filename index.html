@@ -11,33 +11,36 @@
     <div class="wrapper">
       <form action="#" class="form">
         <div class="form-divs">
-          <label for="name">Name</label>
+          <label for="name">Ism</label>
           <input type="text" id="name" />
-        </div>
+        </div>  
         <div class="form-divs">
           <label for="day">Days</label>
-          <button class="days-btn">Days</button>
-
-          <div class="days-dropdown" name="days" id="day" form="dayform">
-            <button class="days-getter-buttons" id="0" value="Dushanba">Dushanba</button>
-            <button class="days-getter-buttons" id="1" value="Seshanba">Seshanba</button>
-            <button class="days-getter-buttons" id="2" value="Chorshanba">Chorshanba</button>
-            <button class="days-getter-buttons" id="3" value="Payshanba">Payshanba</button>
-            <button class="days-getter-buttons" id="4" value="Juma">Juma</button>
-            <button class="days-getter-buttons" id="5" value="Shanba">Shanba</button>
-            <button class="days-getter-buttons" id="6" value="Yakshanba">Yakshanba</button>
-          </div>
+          <select name="days" id="selectform">
+            <option id="0" value="Dushanba">Dushanba</option>
+            <option id="1" value="Seshanba">Seshanba</option>
+            <option id="2" value="Chorshanba">Chorshanba</option>
+            <option id="3" value="Payshanba">Payshanba</option>
+            <option id="4" value="Juma">Juma</option>
+            <option id="5" value="Shanba">Shanba</option>
+            <option id="6" value="Yakshanba">Yakshanba</option>
+          </select>
         </div>
         <div class="form-divs">
-          <label for="time">Time</label>
+          <label for="time">Vaqt</label>
           <input type="time" id="time" />
         </div>
         <div class="form-divs">
-          <label for="reminder">Reminder</label>
+          <label for="reminder">Eslatma</label>
           <input type="text" id="reminder" />
         </div>
-        <button class="submit-btn" type="submit">Submit</button>
+        <button class="submit-btn" type="submit">Jo'natish</button>
       </form>
+
+      <div class="done-div">
+        <img src="image/icons8-done-64.png" alt="">
+        <p>Malumotlar yetkazildi!</p>
+      </div>
     </div>
   </body>
 </html>
